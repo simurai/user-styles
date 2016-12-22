@@ -1,12 +1,11 @@
 # Twitter (wide)
 
-![twitter-wide](https://cloud.githubusercontent.com/assets/378023/21426939/0d32a7e6-c895-11e6-89ca-ff47d36259cc.png)
-
 These user-styles make tweets more wide. For every tweet, the different types of information are spread horizontally so that it's easer to scan the timeline from top to bottom.
 
 Before | After
 --- | ---
-![before](https://cloud.githubusercontent.com/assets/378023/21426878/b7920f16-c894-11e6-86c0-93f1106b4649.png) | ![after](https://cloud.githubusercontent.com/assets/378023/21426877/b7920548-c894-11e6-8a57-23f00b57a9ed.png)
+![twitter-wide-before](https://cloud.githubusercontent.com/assets/378023/21427321/4b1dd72c-c897-11e6-8ec3-c3c59ff64530.png) | ![twitter-wide-after](https://cloud.githubusercontent.com/assets/378023/21427320/4b0a1106-c897-11e6-8321-c7b176e1ee77.png)
+
 
 ## How to install
 
