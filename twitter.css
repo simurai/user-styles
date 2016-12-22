@@ -1,0 +1,119 @@
+
+/* Twitter (wide) */
+
+.dashboard {
+  display: none;
+}
+
+.content-main {
+  width: 100%;
+}
+
+.content {
+  display: flex;
+}
+
+.tweet {
+  overflow: hidden;
+}
+
+.tweet.tweet.tweet:hover {
+    background-color: transparent;
+}
+
+.stream-item.stream-item {
+  background: transparent;
+  border-left: none;
+  border-right: none;
+}
+
+
+/* who -------------------- */
+
+.tweet > .context {
+  position: absolute;
+  width: 200px;
+  margin-left: 58px;
+  margin-top: 36px;
+}
+
+.stream-item-header {
+  flex: 0 0 300px;
+}
+.fullname {
+  display: block;
+}
+
+
+/* tweet -------------------- */
+
+.js-tweet-text-container {
+  flex: 1;
+}
+
+.tweet-text {
+  max-width: 420px;
+  font-size: 1.3em;
+  line-height: 1.5;
+}
+
+.QuoteTweet {
+  font-size: .8em;
+}
+
+
+/* media -------------------- */
+
+.QuoteTweet,
+.AdaptiveMedia,
+.AdaptiveMedia.is-generic-video,
+.js-media-container {
+  display: block;
+  flex: 0 0 240px;
+  max-height: 120px;
+}
+
+.QuoteTweet:hover,
+.AdaptiveMedia:hover,
+.AdaptiveMedia.is-generic-video:hover,
+.js-media-container:hover {
+  flex: 0 0 480px;
+  max-height: 480px;
+  margin-left: 2em;
+}
+
+
+/* action -------------------- */
+
+.stream .stream-item-footer {
+  display: none;
+  position: absolute;
+  left: 360px;
+  bottom: 0px;
+  width: 160px;
+  height: 32px;
+  padding: 10px;
+}
+
+.content:hover .stream-item-footer {
+  display: block;
+}
+
+.content:hover .js-tweet-text-container {
+  padding-bottom: 40px;
+}
+
+.ProfileTweet-actionList {
+  margin-top: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ProfileTweet-action {
+  flex: 1;
+  min-width: 0
+}
+
+.IconTextContainer {
+  display: block; 
+}
