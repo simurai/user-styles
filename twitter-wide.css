@@ -40,6 +40,7 @@
 .stream-item-header {
   flex: 0 0 300px;
 }
+
 .fullname {
   display: block;
 }
@@ -65,7 +66,7 @@
 /* media -------------------- */
 
 .QuoteTweet,
-.AdaptiveMedia,
+.AdaptiveMedia:not(.AdaptiveMedia--hiddenWhenNotExpanded),
 .AdaptiveMedia.is-generic-video,
 .js-media-container {
   display: block;
