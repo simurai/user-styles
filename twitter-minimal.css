@@ -1,0 +1,62 @@
+/* Twitter (minimal) */
+
+/* Remove a bunch of side panels */
+.route-home .dashboard-right,
+.Trends {
+  display: none;
+}
+
+/* Make background white */
+body {
+  background-color: white;
+}
+
+/* Remove tweet borders */
+.stream-item.stream-item,
+.tweet {
+  border: none;
+}
+
+/* Remove hover effect on tweets */
+.tweet.tweet.tweet:hover {
+    background-color: transparent;
+}
+
+/* Only show meta data and actions on hover */
+.tweet:not(:hover) .js-retweet-text,
+.tweet:not(:hover) .fullname,
+.tweet:not(:hover) .username,
+.tweet:not(:hover) .time,
+.tweet:not(:hover) .ProfileTweet-actionList {
+  visibility: hidden;
+}
+
+/* Hide like/reply text */
+.tweet:not(:hover) .tweet-context.with-icn,
+.stream-item:not(:hover) .uncollapse.with-icn {
+  color: transparent;
+}
+.uncollapse.with-icn .Icon {
+  color: hsl(206, 14%, 59%);
+}
+
+/* Move icon a bit down to match the text */
+.with-icn .Icon::before {
+  position: relative;
+  bottom: -18px;
+}
+
+/* Move avatar a bit down to match the text */
+.tweet .avatar {
+  margin-top: 6px;
+}
+
+/* Make the avatars a cirlce */
+.tweet .avatar.avatar.avatar {
+  border-radius: 50%;
+}
+
+/* Increase tweet font size */
+.TweetTextSize {
+  font-size: 1.2em;
+}
