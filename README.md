@@ -5,7 +5,7 @@ Here some user-styles to customize your beloved websites.
 
 ## Twitter (wide)
 
-This makes tweets more wide. For every tweet, the different types of information are spread horizontally so that it's easer to scan the timeline from top to bottom.
+This makes tweets wide. Each type of information are spread horizontally so that it's easer to scan the timeline from top to bottom. For example you can focus only on the text and just glance to the side if you're curious who wrote it or if there is an image attached.
 
 Before | After
 --- | ---
@@ -19,10 +19,11 @@ Before | After
 1. Install one of those "user-styles" browser extensions, like [User CSS](https://chrome.google.com/webstore/detail/user-css/okpjlejfhacmgjkmknjhadmkdbcldfcb) for Chrome.
 2. Click on the "Get the styles" link above that you want to use, then copy the CSS styles.
 3. Go to the appropriate site, for example [twitter.com](https://twitter.com/) if you want to use "Twitter (wide)", open the extension and paste the copied CSS styles.
-4. Done! It should look somewhat close to the screenshot above.
+4. Done! It should look somewhat close to the screenshot.
 
 
 ### Some notes:
 
 - Only tested in Chrome. But should still work in other browsers too.
+- There are probably a few bugs or inconsistencies. 
 - The styles might break if the site changes the class names.
