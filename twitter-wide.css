@@ -1,27 +1,28 @@
-
 /* Twitter (wide) */
 
-.dashboard {
+/* .route-home makes sure the styles only get use for the main timeline */
+
+.route-home .dashboard {
   display: none;
 }
 
-.content-main {
+.route-home .content-main {
   width: 100%;
 }
 
-.content {
+.route-home .content {
   display: flex;
 }
 
-.tweet {
+.route-home .tweet {
   overflow: hidden;
 }
 
-.tweet.tweet.tweet:hover {
+.route-home .tweet.tweet.tweet:hover {
     background-color: transparent;
 }
 
-.stream-item.stream-item {
+.route-home .stream-item.stream-item {
   background: transparent;
   border-left: none;
   border-right: none;
@@ -30,53 +31,54 @@
 
 /* who -------------------- */
 
-.tweet > .context {
+.route-home .tweet > .context {
   position: absolute;
   width: 200px;
   margin-left: 58px;
   margin-top: 36px;
 }
 
-.stream-item-header {
+.route-home .stream-item-header {
   flex: 0 0 300px;
 }
-.fullname {
+
+.route-home .fullname {
   display: block;
 }
 
 
 /* tweet -------------------- */
 
-.js-tweet-text-container {
+.route-home .js-tweet-text-container {
   flex: 1;
 }
 
-.tweet-text {
+.route-home .tweet-text {
   max-width: 420px;
   font-size: 1.3em;
   line-height: 1.5;
 }
 
-.QuoteTweet {
+.route-home .QuoteTweet {
   font-size: .8em;
 }
 
 
 /* media -------------------- */
 
-.QuoteTweet,
-.AdaptiveMedia,
-.AdaptiveMedia.is-generic-video,
-.js-media-container {
+.route-home .QuoteTweet,
+.route-home .AdaptiveMedia,
+.route-home .AdaptiveMedia.is-generic-video,
+.route-home .js-media-container {
   display: block;
   flex: 0 0 240px;
   max-height: 120px;
 }
 
-.QuoteTweet:hover,
-.AdaptiveMedia:hover,
-.AdaptiveMedia.is-generic-video:hover,
-.js-media-container:hover {
+.route-home .QuoteTweet:hover,
+.route-home .AdaptiveMedia:hover,
+.route-home .AdaptiveMedia.is-generic-video:hover,
+.route-home .js-media-container:hover {
   flex: 0 0 480px;
   max-height: 480px;
   margin-left: 2em;
@@ -85,7 +87,7 @@
 
 /* action -------------------- */
 
-.stream .stream-item-footer {
+.route-home .stream .stream-item-footer {
   display: none;
   position: absolute;
   left: 360px;
@@ -95,25 +97,25 @@
   padding: 10px;
 }
 
-.content:hover .stream-item-footer {
+.route-home .content:hover .stream-item-footer {
   display: block;
 }
 
-.content:hover .js-tweet-text-container {
+.route-home .content:hover .js-tweet-text-container {
   padding-bottom: 40px;
 }
 
-.ProfileTweet-actionList {
+.route-home .ProfileTweet-actionList {
   margin-top: 0;
   display: flex;
   flex-wrap: wrap;
 }
 
-.ProfileTweet-action {
+.route-home .ProfileTweet-action {
   flex: 1;
   min-width: 0
 }
 
-.IconTextContainer {
-  display: block; 
+.route-home .IconTextContainer {
+  display: block;
 }
