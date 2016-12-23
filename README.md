@@ -5,6 +5,8 @@ Here some user-styles to customize your beloved websites.
 
 ## Twitter (minimal)
 
+[Get the styles](twitter-minimal.css)
+
 This hides all the meta information and only shows the essential content.
 
 Before | After
@@ -15,18 +17,16 @@ You can still hover each tweet to see the meta information or access other actio
 
 ![twitter-minimal-hover](https://cloud.githubusercontent.com/assets/378023/21449668/1173df8e-c933-11e6-8faa-d17d6402a2e4.gif)
 
-[Get the styles](twitter-minimal.css)
-
 
 ## Twitter (wide)
+
+[Get the styles](twitter-wide.css)
 
 This makes tweets wide. Each type of information is spread horizontally so that it's easer to scan the timeline from top to bottom. For example you can focus only on the text and just glance to the side if you're curious who wrote it or if there is an image attached.
 
 Before | After
 --- | ---
 ![twitter-wide-before](https://cloud.githubusercontent.com/assets/378023/21427321/4b1dd72c-c897-11e6-8ec3-c3c59ff64530.png) | ![twitter-wide-after](https://cloud.githubusercontent.com/assets/378023/21427320/4b0a1106-c897-11e6-8321-c7b176e1ee77.png)
-
-[Get the styles](twitter-wide.css)
 
 
 ---
