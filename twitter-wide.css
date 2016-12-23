@@ -67,7 +67,7 @@
 /* media -------------------- */
 
 .route-home .QuoteTweet,
-.route-home .AdaptiveMedia,
+.route-home .AdaptiveMedia:not(.AdaptiveMedia--hiddenWhenNotExpanded),
 .route-home .AdaptiveMedia.is-generic-video,
 .route-home .js-media-container {
   display: block;
