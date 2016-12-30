@@ -1,0 +1,18 @@
+/* YouTube */
+
+/* Expand video area */
+#page.watch-stage-mode #player-api,
+#page.watch-stage-mode #placeholder-player,
+#page.watch-stage-mode #theater-background {
+  height: calc(100vh - 50px);
+}
+
+/* Position playlist */
+#page.watch-stage-mode #player-playlist .watch-playlist {
+  top: calc(100vh - 410px);
+}
+
+/* Disable transition */
+#page.watch-stage-mode #theater-background {
+  transition: none;
+}
