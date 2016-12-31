@@ -33,7 +33,7 @@ Before | After | In use
 1. Install one of those "user-styles" browser extensions, like [User CSS](https://chrome.google.com/webstore/detail/user-css/okpjlejfhacmgjkmknjhadmkdbcldfcb) for Chrome.
 2. Click on the "Get the styles" link above and copy the CSS styles.
 3. Go to the appropriate site, for example [twitter.com](https://twitter.com/) if you want to use "Twitter", open the extension and paste the copied CSS styles.
-4. Done! It should look somewhat close to the screenshot.
+4. Done!! It should look somewhat close to the screenshot.
 
 
 ### Some notes:
